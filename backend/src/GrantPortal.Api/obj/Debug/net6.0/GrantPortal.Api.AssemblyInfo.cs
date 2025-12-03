@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrantPortal.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+129b25490c293381bf06847c6a1cf66ba9dc3c0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe1ecd56737f1c709b984e81e50d0dd66492b9d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrantPortal.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrantPortal.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
