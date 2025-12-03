@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>GrantPortal.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\GrantPortal.Application\\GrantPortal.Application.csproj" />
+    <ProjectReference Include="..\\GrantPortal.Domain\\GrantPortal.Domain.csproj" />
+    <ProjectReference Include="..\\GrantPortal.Shared\\GrantPortal.Shared.csproj" />
+  </ItemGroup>
+</Project>

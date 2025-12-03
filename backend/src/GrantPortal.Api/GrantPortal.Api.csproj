@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>GrantPortal.Api</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\GrantPortal.Application\\GrantPortal.Application.csproj" />
+    <ProjectReference Include="..\\GrantPortal.Contracts\\GrantPortal.Contracts.csproj" />
+    <ProjectReference Include="..\\GrantPortal.Infrastructure\\GrantPortal.Infrastructure.csproj" />
+    <ProjectReference Include="..\\GrantPortal.Persistence\\GrantPortal.Persistence.csproj" />
+    <ProjectReference Include="..\\GrantPortal.Shared\\GrantPortal.Shared.csproj" />
+  </ItemGroup>
+</Project>

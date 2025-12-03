@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>GrantPortal.Contracts</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\GrantPortal.Shared\\GrantPortal.Shared.csproj" />
+  </ItemGroup>
+</Project>

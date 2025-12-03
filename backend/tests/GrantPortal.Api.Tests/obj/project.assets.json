@@ -1,0 +1,223 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "GrantPortal.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GrantPortal.Application": "1.0.0",
+          "GrantPortal.Contracts": "1.0.0",
+          "GrantPortal.Infrastructure": "1.0.0",
+          "GrantPortal.Persistence": "1.0.0",
+          "GrantPortal.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GrantPortal.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrantPortal.Api.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "GrantPortal.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GrantPortal.Contracts": "1.0.0",
+          "GrantPortal.Domain": "1.0.0",
+          "GrantPortal.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GrantPortal.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrantPortal.Application.dll": {}
+        }
+      },
+      "GrantPortal.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GrantPortal.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GrantPortal.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrantPortal.Contracts.dll": {}
+        }
+      },
+      "GrantPortal.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GrantPortal.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrantPortal.Domain.dll": {}
+        }
+      },
+      "GrantPortal.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GrantPortal.Application": "1.0.0",
+          "GrantPortal.Domain": "1.0.0",
+          "GrantPortal.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GrantPortal.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrantPortal.Infrastructure.dll": {}
+        }
+      },
+      "GrantPortal.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GrantPortal.Application": "1.0.0",
+          "GrantPortal.Domain": "1.0.0",
+          "GrantPortal.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GrantPortal.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrantPortal.Persistence.dll": {}
+        }
+      },
+      "GrantPortal.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GrantPortal.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrantPortal.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GrantPortal.Api/1.0.0": {
+      "type": "project",
+      "path": "../../src/GrantPortal.Api/GrantPortal.Api.csproj",
+      "msbuildProject": "../../src/GrantPortal.Api/GrantPortal.Api.csproj"
+    },
+    "GrantPortal.Application/1.0.0": {
+      "type": "project",
+      "path": "../../src/GrantPortal.Application/GrantPortal.Application.csproj",
+      "msbuildProject": "../../src/GrantPortal.Application/GrantPortal.Application.csproj"
+    },
+    "GrantPortal.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../src/GrantPortal.Contracts/GrantPortal.Contracts.csproj",
+      "msbuildProject": "../../src/GrantPortal.Contracts/GrantPortal.Contracts.csproj"
+    },
+    "GrantPortal.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../src/GrantPortal.Domain/GrantPortal.Domain.csproj",
+      "msbuildProject": "../../src/GrantPortal.Domain/GrantPortal.Domain.csproj"
+    },
+    "GrantPortal.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../src/GrantPortal.Infrastructure/GrantPortal.Infrastructure.csproj",
+      "msbuildProject": "../../src/GrantPortal.Infrastructure/GrantPortal.Infrastructure.csproj"
+    },
+    "GrantPortal.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../../src/GrantPortal.Persistence/GrantPortal.Persistence.csproj",
+      "msbuildProject": "../../src/GrantPortal.Persistence/GrantPortal.Persistence.csproj"
+    },
+    "GrantPortal.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../src/GrantPortal.Shared/GrantPortal.Shared.csproj",
+      "msbuildProject": "../../src/GrantPortal.Shared/GrantPortal.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "GrantPortal.Api >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/veselindachev/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/veselindachev/Downloads/_JobTemp/grant-portal/backend/tests/GrantPortal.Api.Tests/GrantPortal.Api.Tests.csproj",
+      "projectName": "GrantPortal.Api.Tests",
+      "projectPath": "/Users/veselindachev/Downloads/_JobTemp/grant-portal/backend/tests/GrantPortal.Api.Tests/GrantPortal.Api.Tests.csproj",
+      "packagesPath": "/Users/veselindachev/.nuget/packages/",
+      "outputPath": "/Users/veselindachev/Downloads/_JobTemp/grant-portal/backend/tests/GrantPortal.Api.Tests/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/veselindachev/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/veselindachev/Downloads/_JobTemp/grant-portal/backend/src/GrantPortal.Api/GrantPortal.Api.csproj": {
+              "projectPath": "/Users/veselindachev/Downloads/_JobTemp/grant-portal/backend/src/GrantPortal.Api/GrantPortal.Api.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
